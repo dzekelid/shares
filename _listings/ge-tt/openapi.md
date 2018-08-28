@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Ge.tt
 x-complete: 1
@@ -97,4 +96,3 @@ paths:
       - Shares
       - Sharename
       - Update
----

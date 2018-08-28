@@ -7,11 +7,37 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linked
 x-kinRank: "8"
 x-alexaRank: "34"
 tags: Shares
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/shares/master/_listings/linkedin/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: LinkedIn - Add People ~ Shares
+  x-api-slug: peopleshares-post
+  description: Post people ~ shares
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1
+  tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
+    Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
+    SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
+    Relative Data, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shares/master/_listings/linkedin/peopleshares-post-openapi.md
+- name: LinkedIn - Add Companies Shares
+  x-api-slug: companiesidshares-post
+  description: Post companies  shares
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/221-linkedin.jpg
+  humanURL: http://linkedin.com
+  baseURL: https://api.linkedin.com//v1
+  tags: Social, My API Stack, Indie EdTech Data Jam, Stack Network, Stack, Social
+    Networks, internet, SaaS, Mobile, Technology, API Provider, API Service Provider,
+    SDIO Syndication, Social, Social Networks, Profiles, Service API, General Data,
+    Relative Data, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/shares/master/_listings/linkedin/companiesidshares-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://link.fish.api.gallery.streamdata.io
